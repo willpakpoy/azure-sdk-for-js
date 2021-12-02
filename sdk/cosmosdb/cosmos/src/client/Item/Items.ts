@@ -296,7 +296,8 @@ export class Items {
       response.headers,
       response.code,
       response.substatus,
-      ref
+      ref,
+      response.cosmosDiagnostics
     );
   }
 
@@ -368,7 +369,8 @@ export class Items {
       response.headers,
       response.code,
       response.substatus,
-      ref
+      ref,
+      response.cosmosDiagnostics
     );
   }
 
